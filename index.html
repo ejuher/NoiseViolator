@@ -4,10 +4,35 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+	<div id="content">
+		<div class="form">
+			cell number: ________ threshold: %
+		</div>
+		<div class="dashboard">
+			<meter></meter>
+			<table>
+				<thead>
+					<tr>Top Noise Violations</tr>
+					<tr>
+						<th>Noise Output</th>
+						<th>Time</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>55</td>
+						<td>5:30</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/underscore.js"></script>
 	<script type="text/javascript" src="js/backbone.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
 	<script type="text/javascript" src="js/models/noiseViolation.js"></script>
+	<script type="text/javascript" src="js/views/noiseViolationShow.js"></script>
 </body>
 </html>
