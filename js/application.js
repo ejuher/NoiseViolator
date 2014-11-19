@@ -3,9 +3,4 @@ window.NoiseViolator = {
 	Collections: {},
 	Views: {},
 	Routers: {},
-	initialize: function() {
- 		Backbone.history.start();
- 	}
 };
-
-$(NoiseViolator.initialize());
