@@ -15,6 +15,6 @@ body {
 }
 
 meter {
-	display: block;
-	width: 380px;
+	display: inline-block;
+	width: 360px;
 }
